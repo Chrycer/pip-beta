@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="website-name" id="website-name">
+                Project PIP
+            </div>
+            <div class="search-container">
+                <form action="">          
+                    <input type="text" placeholder="" name="search" id="searchInput">
+                    <button type="submit" id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="suggestions">
+                    <ul id="suggestionsList">
+                    </ul>
+                </div>    
+            </div>
+            <hr>
+        </div>
+        <div class="body">
+            <div class="images-container">
+            </div>
+              <br>
+            <div class="details" id="details">
+                <div class="name">
+                    <div class="title">Name</div>
+                </div>
+                <div class="sciname">
+                    <div class="title">Scientific Name</div>
+                </div>
+                <div class="color">
+                    <div class="title">Color</div>
+                </div>
+            </div>
+            <div id="delete-button">
+                <button type="button" id="delete">Delete</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/b1b5d2dafa.js" crossorigin="anonymous"></script>
+</body>
+</html>

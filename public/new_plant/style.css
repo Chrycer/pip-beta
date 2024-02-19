@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    height: 100vh;
+}
+
+.wrapper {
+    margin-top: -90px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 100%;
+}
+
+.website-name {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.title-page {
+    font-size: 30px;
+}
+
+.fillout-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputHeader {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+}
+
+.textbox {
+    margin-bottom: 30px;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(35,35,35 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.30);
+    border: transparent;
+    flex-basis: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 350px;
+}
+
+.right-column {
+    margin-left: 30px;
+}
+
+.right-column label {
+    text-align: right;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right-column input[type="file"] {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.bottom-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.submit {
+    border: none;
+    width: 500px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}

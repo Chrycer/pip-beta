@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Plant | Project PIP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <div class="website-name">Project PIP</div>
+            <div class="title-page">New Plant</div>
+        </div>
+        <div class="fillout-info">
+            <div class="left-column">
+                <div class="name-plant">
+                    <div class="inputHeader">Name</div>
+                    <form action="">
+                        <input type="text" class="textbox" name="name" id="plantName">
+                    </form>
+                </div>
+    
+                <div class="sciname-plant">
+                    <div class="inputHeader">Scientific Name</div>
+                    <form action="">
+                        <input type="text" class="textbox" name="sciname" id="plantSciName">
+                    </form>
+                </div>
+    
+                <div class="color-plant">
+                    <div class="inputHeader">Color</div>
+                    <form action="">
+                        <input type="text" class="textbox" name="color" id="plantColor">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="right-column">
+                <form action="" method="post" enctype="multipart/form-data">
+                    <label for="fileUpload">Upload Images:</label>
+                    <input type="file" id="plantImages" name="fileUpload" accept="image/*" multiple>
+                </form>
+            </div>
+        </div>
+        <div class="bottom-page">
+            <button class="submit" id = "submitPlant">Submit</button>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>    
+</body>
+</html>

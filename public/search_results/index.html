@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="website-name" id="website-name">
+                Project PIP
+            </div>
+            <div class="search-container">
+                <form action="">          
+                    <input type="text" placeholder="" name="search" id="searchInput">
+                    <button type="submit" id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="suggestions">
+                    <ul id="suggestionsList">
+                    </ul>
+                </div>    
+            </div>
+            <hr>
+        </div>
+        <br>
+        <div class="body-part">
+            <div class="left-column">
+                <div class="filter" id="filter">
+                    <div class="Range">
+                        <div class="filter-title">
+                            Range:
+                        </div>
+                        <ul class="filter-range" id="filter-range">
+                            <li>Anytime</li>
+                            <li>Since 2024</li>
+                            <li>Since 2023</li>
+                            <li>Since 2020</li>
+                            <li>Custom Range</li>
+                        </ul>
+                    </div>
+                <div class="sort" id="sorting">
+                    <div class="sort-title">
+                        Sort by:
+                    </div>
+                    <ul class="sort-by" id="sort-by">
+                        <li>Alphabetically</li>
+                        <li>Time Created</li>
+                        <li>Time Modified</li>
+                    </ul>
+                </div>                   
+            </div>
+             
+            </div>
+            <div class="right-column">
+                <div class="search-results">
+                    <ul class="results" id="results">
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/b1b5d2dafa.js" crossorigin="anonymous"></script>
+</body>
+</html>
